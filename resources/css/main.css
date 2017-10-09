@@ -1,0 +1,22 @@
+#my-nav {
+  background-color: #4060B7;
+  height: 42px;
+  margin-bottom: 10px;
+}
+.red, .pink, .orange{
+  height: 500px;
+}
+.red {
+  background-color: red;
+}
+.pink{
+  background-color: pink;
+}
+.orange{
+  background-color: orange;
+}
+.footer{
+  height: 42px;
+  margin-top: 10px;
+  background-color: #0f0f0f;
+}
