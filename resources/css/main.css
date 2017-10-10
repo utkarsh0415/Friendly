@@ -1,19 +1,25 @@
-#my-nav {
-  background-color: #4060B7;
-  height: 42px;
-  margin-bottom: 10px;
+body{
+  background-color: #E9EBEE;
 }
-.red, .pink, .orange{
-  height: 500px;
+#my-nav{
+  color: white;
+  background-color: #4267b2;
 }
-.red {
-  background-color: red;
+#brand{
+  color: white;
 }
-.pink{
-  background-color: pink;
+#my-nav a{
+  color: white !important;
 }
-.orange{
-  background-color: orange;
+.added-width{
+  min-width: 400px;
+}
+#darkercolor span {
+  color: #0D1325;
+  font-size: 20px;
+}
+.pull-right{
+  float: right !important;
 }
 .footer{
   height: 42px;
