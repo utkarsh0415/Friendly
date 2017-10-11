@@ -1,5 +1,5 @@
-body{
-  background-color: #E9EBEE;
+body {
+  background-color: #EB9EEE;
 }
 #my-nav{
   color: white;
@@ -20,6 +20,21 @@ body{
 }
 .pull-right{
   float: right !important;
+}
+.list-heading{
+  padding: 20px 15px 0px 15px;
+}
+.post-section, .ads{
+  background-color:white ;
+  height: 800px;
+}
+.fa{
+  margin-right: 10px;
+}
+img{
+  height: 15px;
+  width:15px;
+  margin-right: 10px;
 }
 .footer{
   height: 42px;
