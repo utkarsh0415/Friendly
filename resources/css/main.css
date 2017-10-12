@@ -1,9 +1,17 @@
-body {
-  background-color: #EB9EEE;
+#background{
+  background: #E9EBEE;
+}
+.container-fluid{
+
+}
+
+p{
+  font-family: inherit;
 }
 #my-nav{
   color: white;
   background-color: #4267b2;
+  min-height: 10px;
 }
 #brand{
   color: white;
@@ -13,10 +21,27 @@ body {
 }
 .added-width{
   min-width: 400px;
+  max-height:25px;
+  margin-left: -30px;
+}
+.btn-default{
+  max-height: 25px;
+}
+.margin{
+  margin-top: -5px;
+}
+.name-nav{
+  margin-top: -5px;
 }
 #darkercolor span {
-  color: #0D1325;
+  color: black;
   font-size: 20px;
+  margin-top: -5px;
+}
+#facebook-icon{
+  margin-left: 50px;
+  font-size: 25px;
+  margin-top: -2px;
 }
 .pull-right{
   float: right !important;
@@ -28,13 +53,33 @@ body {
   background-color:white ;
   height: 800px;
 }
+.side-bar{
+  background-color: #E9EBEE;
+  margin-left: -50px;
+  margin-top: -10px;
+}
 .fa{
   margin-right: 10px;
+  font-size: 30px;
 }
 img{
-  height: 15px;
-  width:15px;
+  height: 20px;
+  width:20px;
   margin-right: 10px;
+}
+.photo{
+  border-radius: 50%;
+}
+.material-icons{
+  font-size: 20px;
+  color: #0D1325;
+}
+.color{
+  color:red;
+  margin-left: -5px;
+}
+.colour{
+  color:red;
 }
 .footer{
   height: 42px;
