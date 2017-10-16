@@ -1,10 +1,6 @@
 #background{
   background: #E9EBEE;
 }
-.container-fluid{
-
-}
-
 p{
   font-family: inherit;
 }
@@ -49,10 +45,7 @@ p{
 .list-heading{
   padding: 20px 15px 0px 15px;
 }
-.post-section, .ads{
-  background-color:white ;
-  height: 800px;
-}
+
 .side-bar{
   background-color: #E9EBEE;
   margin-left: -50px;
@@ -85,4 +78,19 @@ img{
   height: 42px;
   margin-top: 10px;
   background-color: #0f0f0f;
+}
+
+.panel-body .glyphicon{
+  margin-left: 10px;
+margin-right: 4px;
+}
+.panel{
+  margin-bottom: 5px;
+}
+.text-post{
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+.image-post{
+  margin-bottom: 15px;
 }
