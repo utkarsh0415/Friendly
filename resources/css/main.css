@@ -48,20 +48,23 @@ p{
 
 .side-bar{
   background-color: #E9EBEE;
-  margin-left: -50px;
   margin-top: -10px;
 }
 .fa{
   margin-right: 10px;
   font-size: 30px;
 }
-img{
+
+.candy{
   height: 20px;
   width:20px;
   margin-right: 10px;
 }
 .photo{
   border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
 }
 .material-icons{
   font-size: 20px;
@@ -79,18 +82,60 @@ img{
   margin-top: 10px;
   background-color: #0f0f0f;
 }
-
-.panel-body .glyphicon{
-  margin-left: 10px;
-margin-right: 4px;
+.post-section, .ads{
+  height: 700px;
+  overflow: scroll;
+}
+.post-section::-webkit-scrollbar{
+  display: none;
+}
+.post-section::-moz-scrollbar{
+  display: none;
+}
+.post-section::-o-scrollbar{
+  display: none;
+}
+.ads::-webkit-scrollbar{
+  display: none;
 }
 .panel{
   margin-bottom: 5px;
 }
+.panel-body .glyphicon{
+  margin-left: 10px;
+margin-right: 4px;
+}
 .text-post{
-  margin-bottom: 15px;
   margin-top: 0px;
+  margin-bottom: 15px;
 }
 .image-post{
   margin-bottom: 15px;
+}
+.embed-responsive-4by3
+{
+  padding-bottom: percentage((3 / 4)); // 75%;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.reply-toolkit span{
+  margin-left: 5px;
+}
+.reply-toolkit{
+  margin-top: 5px;
+}
+.comment-box{
+  width:100%;
+  border-radius: 15px;
+  height: 32px;
+  color: grey;
+  border: 0 !important;
+}
+.comment-box:focus, .comment-box:active{
+  border: none !important;
+  box-shadow: none !important;
+  outline: none;
+}
+.badges{
+  margin-left: 10px;
 }
